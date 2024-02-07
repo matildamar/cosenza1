@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+<meta charset="UTF‑8">
+<title>Contacto ‑ Cosenza Ceramica</title>
+<link rel="stylesheet" href="reset.css/">
+<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja"> 
+                <h1><img src="imagenes/cosenza.png" </h1>
+    
+                 <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                 </nav>
+            </div>
+        </header>
+        <main>
+         <form>
+            <label for="nombreyapellido">Nombre y Apellido</label>
+            <input type="text" id='nombreyapellido' class="padron">
+            <label for="correoelectronico">Correo Electronico</label>
+            <input type="text" id="correoelectronico" class="padron">
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono" class="padron">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="padron"></textarea>
+            
+            <div>
+             <p>Como le gustaria que lo contactemos?</p>
+
+             <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+             
+             <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+             
+             <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+             
+            </div>
+
+            <div> 
+              <p>En que horario prefiere ser contactado?</p>
+              <select>
+                <option>Manana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+              </select>
+            </div>
+
+           <label class="checkbox"><input type="checkbox"> Le gustaria recibir novedades de Cosenza?</label> 
+
+           <input type="submit" value="Enviar formulario">
+
+         </form>
+
+        </main>
+
+        <footer>
+            <img src="imagenes/cosenza.png">
+            <p class="copyright"> &copy Copyright CosenzaMarzi - 2024</p>
+        </footer>
+    </body>
+</html>
